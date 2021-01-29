@@ -1,0 +1,123 @@
+.Cloud1 {
+    border-radius: 50%;
+    box-shadow: 20px -20px 2px 0 #fff,
+                 90px 0 2px 0 #fff,                               
+                 60px -27px 2px 8px #fff;            
+     position: absolute;
+     width: 48px;
+     height: 48px;
+     left: 100px;
+     background: #fff;
+     margin: 5px;
+     z-index: 2;
+     animation: CloudMovment2 50s infinite linear;
+}
+.Cloud2 {
+    left: 120px;
+    border-radius: 50%;
+    position: absolute;
+    width: 88px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 2px 0 #ffffff;
+    margin: 5px;
+    z-index: 2;
+    animation: CloudMovment2 50s infinite linear;
+}
+.Cloud3 {
+   border-radius: 50%;
+   box-shadow: 20px -20px 2px 0 #fff,
+                90px 0 2px 0 #fff,                               
+                60px -27px 2px 8px #fff;            
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 150px;
+    background: #fff;
+    margin: 140px;
+    z-index: 3;
+    animation: CloudMovment 30s infinite linear;
+}
+.Cloud4 {
+    left: 170px;
+    border-radius: 50%;
+    position: absolute;
+    width: 88px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 2px 0 #ffffff;
+    margin: 140px;
+    z-index: 3;
+    animation: CloudMovment 30s infinite linear;
+}
+.Cloud5 {
+    border-radius: 50%;
+    box-shadow: 20px -20px 2px 0 #fff,
+                 90px 0 2px 0 #fff,                               
+                 60px -27px 2px 8px #fff;
+     
+     position: absolute;
+     width: 48px;
+     height: 48px;
+     left: 370px;
+     background: #fff;
+     margin: 40px;
+     z-index: 2;
+     animation: CloudMovment 30s infinite linear;
+ }
+.Cloud6 {
+    left: 390px;
+     border-radius: 50%;
+     position: absolute;
+     width: 88px;
+     height: 60px;
+     background: #fff;
+     box-shadow: 0 0 2px 0 #ffffff;
+     margin: 40px;
+     z-index: 2;
+     animation: CloudMovment 30s infinite linear;
+ }
+.Cloud7 {
+    border-radius: 50%;
+    box-shadow: 20px -20px 2px 0 #fff,
+                 90px 0 2px 0 #fff,                               
+                 60px -27px 2px 8px #fff;
+     
+     position: absolute;
+     width: 48px;
+     height: 48px;
+     left: 500px;
+     background: #fff;
+     margin: 140px;
+     z-index: 2;
+     animation: CloudMovment 30s infinite linear;
+ }
+.Cloud8 {
+    left: 520px;
+     border-radius: 50%;
+     position: absolute;
+     width: 88px;
+     height: 60px;
+     background: #fff;
+     box-shadow: 0 0 2px 0 #ffffff;
+     margin: 140px;
+     z-index: 2;
+     animation: CloudMovment 30s infinite linear;
+ }
+ 
+ @keyframes CloudMovment {
+     from {
+         margin-left: -30%;
+     }
+     to {
+        margin-left: 105%;
+     }
+ }
+ @keyframes CloudMovment2 {
+     from {
+         margin-left: -30%;
+     }
+     to {
+        margin-left: 105%;
+     }
+ }
