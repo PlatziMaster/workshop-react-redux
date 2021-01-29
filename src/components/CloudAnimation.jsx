@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/CloudAnimation.css';
+import '@styles/CloudAnimation.css';
 
 const CloudAnimation= () => {
     return (
