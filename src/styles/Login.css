@@ -1,5 +1,5 @@
 .Login-Container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #68A9FF;
     display: flex;
@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }
 .Form-Container {
     width: 42vw;
@@ -33,11 +34,11 @@
     background: transparent;
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color: #68A9FF;
     cursor: pointer;
     outline: none;
 }
 .Input-Styles::placeholder {
     color: rgba(104, 169, 255, .5);
     font-size: 12px;
-  }
+}
