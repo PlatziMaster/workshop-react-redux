@@ -23,7 +23,7 @@ const App = () => {
                 </Route>
                 <Route exact path="/login">
                     {isLogin ? <Redirect to="/dashboard"/> : <Login/>}
-                </Route>                
+                </Route>
                 <RequireAuth>
                     <Route exact path="/dashboard" component={Dashboard} />
                 </RequireAuth>

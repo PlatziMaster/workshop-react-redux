@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { connect } from 'react-redux';
 import { addUsername } from '@actions';
-import Button from '../components/Button';
-import CloudAnimation from '../components/CloudAnimation';
+import Button from '@components/Button';
+import CloudAnimation from '@components/CloudAnimation';
 
-import '../styles/Login.css'
+import '@styles/Login.css'
 
 const Login = (props) => {
     const formRef = useRef(null);
